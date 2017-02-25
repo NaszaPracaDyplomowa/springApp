@@ -3,29 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.mkyong</groupId>
-	<artifactId>spring-security-loginform-database</artifactId>
+	<groupId>com.pl.springApp</groupId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>SpringSecurity LoginForm Database</name>
-	<url>http://www.mkyong.com/tutorials/spring-security-tutorials/</url>
 
-	<licenses>
-		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
-	<developers>
-		<developer>
-			<id>mkyong</id>
-			<name>Yong Mook Kim</name>
-			<email>mkyong2002@gmail.com</email>
-		</developer>
-	</developers>
+
 	<properties>
-		<jdk.version>1.6</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<spring.version>3.2.8.RELEASE</spring.version>
 		<spring.security.version>3.2.3.RELEASE</spring.security.version>
 		<jstl.version>1.2</jstl.version>
@@ -122,4 +106,5 @@
 		</plugins>
 	</build>
 
+	<artifactId>springApp</artifactId>
 </project>
